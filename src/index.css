@@ -88,7 +88,7 @@ button {
   border: none;
   cursor: pointer;
   color: #fff;
-  background-color: #0c083b;
+  background-color: #09024d;
   border-radius: 10px;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   -webkit-border-radius: 10px;
@@ -118,13 +118,13 @@ button {
 
 .card {
   border-radius: 10px;
-  margin: 40px 0;
+  margin: 20px 0;
   width: 90%;
   height: 400px;
   position: relative;
   box-shadow: 0 2px 5px #999999;
   text-align: left;
-  background: rgba(3, 3, 66, 0.6);
+  background: rgba(3, 3, 66, 0.7);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
