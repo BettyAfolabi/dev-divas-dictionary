@@ -1,8 +1,66 @@
-# React + Vite
+# DevDIvas-Week-15-Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This project is a dictionary app that contains meaning of abbreviated words used on social media platforms using React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Languages used to develop the website:
+
+- HTML
+- CSS
+- Javascript
+
+Framework used
+
+- React
+- Vite
+
+DevDivas group members:
+
+1. Elizabeth Afolabi
+2. Oreoluwa Rasheed
+3. Faith Adewuyi
+4. Chidinma Ugonna
+5. Adachukwu Okafor
+6. Glory Nwachukwu
+7. Barira Abeni
+8. Chinwendu Achilonu
+9. Dorcas Adigun
+
+## Getting Started
+
+To clone this repository, run the following command:
+
+```bash
+# Clone the repository
+git clone https://github.com/BettyAfolabi/DevDivas-Store.git
+
+# Navigate to the project directory
+cd DevDivas-Store
+```
+
+After cloning the repository, development started using html, cssand javascript
+
+To create a branch for your contribution
+
+```bash
+# Creating a branch and working on the project
+git checkout -b NameOfBranch
+run `npm i` to install all dependency of the directory
+run `npm run dev` to view your work on the browser.
+```
+
+To push to github
+
+```bash
+# Creating a branch and switching to the branch from the main branch
+git add.
+
+git commit -m "Initial commit"
+
+git push upstream NameOfBranch
+```
+
+## Contributing
+
+We welcome contributions to this project. If you have any suggestions or bug fixes, please feel free to create a pull request.
