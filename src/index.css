@@ -88,7 +88,7 @@ button {
   border: none;
   cursor: pointer;
   color: #fff;
-  background-color: #030027;
+  background-color: #0c083b;
   border-radius: 10px;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   -webkit-border-radius: 10px;
@@ -102,7 +102,7 @@ button {
 }
 
 .button:hover {
-  background-color: #040125;
+  background-color: #0c083b;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -124,6 +124,7 @@ button {
   position: relative;
   box-shadow: 0 2px 5px #999999;
   text-align: left;
+  background: rgba(3, 3, 66, 0.6);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -133,7 +134,7 @@ button {
 .top {
   color: #fff;
   height: 40%;
-  opacity: 85%;
+
 }
 
 .top h1 {
@@ -146,7 +147,7 @@ button {
 }
 
 .btm {
-  background-color: #040125;
+  background-color: #09024d;
   border-top-left-radius: 20%;
   border-top-right-radius: 20%;
   height: 60%;

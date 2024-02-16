@@ -14,7 +14,7 @@ function App() {
           </p>
           <div className="actions">
             <form action="">
-              <input type="text" />
+              <input type="text" autoFocus />
               <button className="button">Search Words</button>
             </form>
             <button className="add button">Add New Words</button>
