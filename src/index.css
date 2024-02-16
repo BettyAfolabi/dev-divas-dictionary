@@ -10,7 +10,7 @@ body {
   height: 100vh;
   font-size: 17px;
   line-height: 1.6;
-  background: url(/pook.jpg) center/cover no-repeat fixed;
+  background: url(/constellations.jpg) center/cover no-repeat fixed;
   overflow: hidden;
 }
 
@@ -32,7 +32,7 @@ header {
 }
 
 h1 {
-  color: #000;
+  color: #fff;
   font-size: 44px;
   text-align: center;
   padding: 3rem 1rem 1.5rem 1rem;
@@ -55,8 +55,8 @@ input {
   padding: 10px 20px;
   outline: none;
   background: none;
-  color: #e42e83;
-  border: 1px solid #000;
+  color: #fff;
+  border: 1px solid #fff;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -87,8 +87,8 @@ button {
   outline: none;
   border: none;
   cursor: pointer;
-  color: #e42e83;
-  background-color: #000;
+  color: #fff;
+  background-color: #030027;
   border-radius: 10px;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   -webkit-border-radius: 10px;
@@ -102,7 +102,7 @@ button {
 }
 
 .button:hover {
-  background-color: #e42e83;
+  background-color: #040125;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -113,6 +113,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 25px;
+  margin-bottom: 3rem;
 }
 
 .card {
@@ -121,7 +122,7 @@ button {
   width: 90%;
   height: 400px;
   position: relative;
-  box-shadow: 0 2px 5px #eaeff1;
+  box-shadow: 0 2px 5px #999999;
   text-align: left;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -130,14 +131,14 @@ button {
 }
 
 .top {
-  color: #e42e83;
+  color: #fff;
   height: 40%;
   opacity: 85%;
 }
 
 .top h1 {
   font-size: 36px;
-  color: #e4cad6;
+  color: #fff;
   text-align: left;
   font-weight: 800;
   letter-spacing: 3px;
@@ -145,18 +146,18 @@ button {
 }
 
 .btm {
-
-  background-color: #000;
+  background-color: #040125;
   border-top-left-radius: 20%;
   border-top-right-radius: 20%;
   height: 60%;
 }
 
 .btm p {
+  padding-top: 1rem;
   font-size: 30px;
   padding: 40px 20px;
   letter-spacing: 3px;
-  color: #e74490;
+  color: #fff;
   text-align: left;
 }
 
@@ -257,6 +258,7 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
     width: fit-content;
     margin: auto;
+    gap: 30px;
   }
 
 }
@@ -267,6 +269,7 @@ button {
     margin-right: 20px;
     height: 300px;
   }
+
 
 }
 
