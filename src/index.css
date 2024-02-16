@@ -188,11 +188,13 @@ button {
   #cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
+    margin: auto;
+    width: fit-content;
   }
 
   .card {
-    width: 300px;
+    width: 350px;
   }
 
   .add {
@@ -259,6 +261,7 @@ button {
     width: fit-content;
     margin: auto;
     gap: 30px;
+    margin-bottom: 2.5rem;
   }
 
 }
