@@ -33,22 +33,24 @@ To clone this repository, run the following command:
 
 ```bash
 # Clone the repository
-git clone https://github.com/BettyAfolabi/DevDivas-Store.git
+git clone https://github.com/BettyAfolabi/dev-divas-dictionary
 
 # Navigate to the project directory
-cd DevDivas-Store
+cd dev-divas-dictionary
 ```
-
-After cloning the repository, development started using html, cssand javascript
 
 To create a branch for your contribution
 
 ```bash
 # Creating a branch and working on the project
 git checkout -b NameOfBranch
+```
+
+After creating the branch, to start development with react
 run `npm i` to install all dependency of the directory
 run `npm run dev` to view your work on the browser.
-```
+
+````
 
 To push to github
 
@@ -59,7 +61,7 @@ git add.
 git commit -m "Initial commit"
 
 git push upstream NameOfBranch
-```
+````
 
 ## Contributing
 
